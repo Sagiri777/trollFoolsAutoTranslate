@@ -86,7 +86,7 @@ def get_json_from_url(url):
 for url in source_list:
     json_data = get_json_from_url(url + endFix)
     if json_data:
-        host = urlparse(url).netloc  # 提取主机名
+        host = urlparse(url).netloc.replace(".",'-')  # 提取主机名
         output_path = f"translated/zh-cn/{host}/{endFix}"  # 构建新路径
         os.makedirs(os.path.dirname(output_path), exist_ok=True)  # 确保目录存在
         for package in json_data:

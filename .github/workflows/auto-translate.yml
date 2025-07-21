@@ -1,0 +1,43 @@
+name: Auto Translate and Commit
+
+on:
+  schedule:
+    - cron: '0 12 1,15 * *'  # 每天午夜运行
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'  # 可根据需要调整Python版本
+          
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Run main.py
+        run: |
+          python main.py
+          
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 添加所有更改
+          git add .
+          
+          # 如果没有更改则跳过提交
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Automated translation update $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          else
+            echo "No changes to commit"
+          fi

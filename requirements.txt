@@ -1,0 +1,6 @@
+# 项目依赖列表
+
+# 翻译相关
+translate
+langdetect
+requests

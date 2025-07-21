@@ -1,0 +1,160 @@
+[
+    {
+        "name": "SatellaJailed",
+        "version": "v1.0.3",
+        "description": "为受支持的应用程序启用应用内购买绕过付款限制并为某些应用程序打开功能",
+        "app_url": "",
+        "icon_url": "",
+        "dylib": "https://trollfools.slpmods.net/downloads/SatellaJailed.dylib",
+        "section": "实用工具",
+        "size": "323 KB",
+        "author": "Satella"
+    },
+    {
+        "name": "Calculator",
+        "version": "v1.0",
+        "description": "该软件包允许您查看最近在计算机应用程序中执行的计算记录",
+        "app_url": "https://apps.apple.com/sa/app/calculator/id1069511488",
+        "icon_url": "https://trollfools.slpmods.net/icons/687299fa1c7c6_2EE84718-2462-4E26-BE6A-A12B3659CF5D.png",
+        "dylib": "https://trollfools.slpmods.net/downloads/687299fa1ca6d_calc.dylib",
+        "section": "工具",
+        "size": "199 KB",
+        "author": "SLP",
+        "screenshots": []
+    },
+    {
+        "name": "BHTwitter",
+        "version": "v4.4",
+        "description": "工具的特点：\r\n- 去除广告。\r\n- 解锁Twitter Blue（推特蓝）的高级功能。\r\n- 还有很多其他功能...",
+        "app_url": "https://apps.apple.com/sa/app/twitter/id333903271",
+        "icon_url": "https://trollfools.slpmods.net/icons/68729ba1efd5a_BHTwitter.png",
+        "dylib": "https://trollfools.slpmods.net/downloads/68729ba1effc7_BHTwitter_4.4_Trollfools.zip",
+        "section": "社交",
+        "size": "10 MB",
+        "author": "BandarHL",
+        "screenshots": [
+            "https://trollfools.slpmods.net/screenshots/68729ba1f3950_IMAGE%201447-01-17%2020:29:53.jpg",
+            "https://trollfools.slpmods.net/screenshots/IMAGE%201447-01-17-20:32:26.jpg",
+            "https://trollfools.slpmods.net/screenshots/IMAGE%201447-01-17-20:32:25.jpg"
+        ]
+    },
+    {
+        "name": "BHTikTok",
+        "version": "v4.1",
+        "description": "该工具的特点：\r\n•没有广告\r\n•下载视频\r\n•下载音乐\r\n•显示/隐藏用户界面按钮\r\n•复制视频描述\r\n•复制视频链接\r\n•复制音乐链接\r\n•自动播放以下视频\r\n•显示进度条\r\n•确认钦佩\r\n•确认对评论的钦佩\r\n•确认不喜欢评论\r\n•确认跟进\r\n•保存个人资料图片\r\n•复制个人资料信息\r\n•延长简历\r\n•延长暂停期\r\n•在Safari中始终开放\r\n•改变地区\r\n•假蓝色认证标志\r\n•虚假粉丝数量\r\n•您关注的人数是假的\r\n•锁享受一下",
+        "app_url": "https://apps.apple.com/sa/app/tiktok-videos-music-live/id835599320",
+        "icon_url": "https://trollfools.slpmods.net/icons/6873e4ed80e44_unnamed.jpg",
+        "dylib": "https://trollfools.slpmods.net/downloads/6873e4ed81077_BHTikTokPlus_2.3.1.zip",
+        "section": "社交",
+        "size": "2 MB",
+        "author": "BandarHL",
+        "screenshots": []
+    },
+    {
+        "name": "YTLite",
+        "version": "v5.2b1",
+        "description": "该工具的特点：\r\n•下载视频、音频（可选择音轨）、迷你照片、帖子和个人资料照片\r\n•复制视频信息、评论和帖子\r\n•自定义界面：删除主页元素，重新排列选项卡，激活OLED模式，仅使用短片模式\r\n•播放器设置：手势控制、默认质量、首选音频曲目\r\n•保存、下载和恢复设置。启动应用程序时扫描一次或自动缓存\r\n•内置SponsorBlock工具（跳过视频中的广告片段）\r\n•更多",
+        "app_url": "https://apps.apple.com/sa/app/youtube/id544007664",
+        "icon_url": "",
+        "dylib": "https://trollfools.slpmods.net/downloads/6873e7af38734_YTLite_5.2b1.zip",
+        "section": "社交",
+        "size": "16 MB",
+        "author": "dayanch96",
+        "screenshots": [],
+        "updated_at": "2025-07-16 04:23:31",
+        "updated_by": "SLPMods"
+    },
+    {
+        "name": "Watusi 3",
+        "version": "v1.2.76",
+        "description": "为WhatsApp添加功能，包括控制阅读收据、打字指示、隐藏互联网连接状态和许多其他隐私功能。",
+        "app_url": "https://apps.apple.com/sa/app/whatsapp-messenger/id310633997",
+        "icon_url": "https://avatars.githubusercontent.com/u/6962327?v=4",
+        "dylib": "https://trollfools.slpmods.net/downloads/AllTweaksFouad_Trollfools.zip",
+        "section": "社交",
+        "size": "22 MB",
+        "author": "FouadRaheb",
+        "screenshots": [
+            "https://trollfools.slpmods.net/screenshots/watusi_screenshot1.png",
+            "https://trollfools.slpmods.net/screenshots/watusi_screenshot2.png",
+            "https://trollfools.slpmods.net/screenshots/watusi_screenshot3.png",
+            "https://trollfools.slpmods.net/screenshots/watusi_screenshot4.png",
+            "https://trollfools.slpmods.net/screenshots/watusi_screenshot5.png"
+        ],
+        "updated_at": "2025-07-16 04:14:47",
+        "updated_by": "SLPMods"
+    },
+    {
+        "name": "ALLFLEXing",
+        "version": "v1.2.1",
+        "description": "注入应用程序后用三个手指按住上栏。",
+        "app_url": "",
+        "icon_url": "",
+        "dylib": "https://trollfools.slpmods.net/downloads/6873e9c106d1e_AllFLEXing.dylib",
+        "section": "开发",
+        "size": "3 MB",
+        "author": "NSExceptional",
+        "screenshots": [
+            "https://trollfools.slpmods.net/screenshots/6873e9c10853c_Preferences.png",
+            "https://trollfools.slpmods.net/screenshots/6873e9c1087fb_Weather.png"
+        ],
+        "updated_at": "2025-07-17 10:28:17",
+        "updated_by": "SLPMods"
+    },
+    {
+        "name": "LocalIAPStore",
+        "version": "v1.0.0",
+        "description": "打开某些应用程序的功能注入任何应用程序购买-然后取消",
+        "app_url": "",
+        "icon_url": "",
+        "dylib": "https://trollfools.slpmods.net/downloads/6873eb44a3386_Localiapstore-AB.deb",
+        "section": "实用工具",
+        "size": "43 KB",
+        "author": "SLP",
+        "screenshots": []
+    },
+    {
+        "name": "iNoAds",
+        "version": "v1.0.0",
+        "description": "将其注入任何应用程序以取消其广告",
+        "app_url": "",
+        "icon_url": "",
+        "dylib": "https://trollfools.slpmods.net/downloads/687575e309a46_iNoAds.dylib",
+        "section": "实用工具",
+        "size": "72 KB",
+        "author": "SLP",
+        "screenshots": [],
+        "updated_at": "2025-07-18 07:09:07",
+        "updated_by": "SLPMods"
+    },
+    {
+        "name": "ADSpeed",
+        "version": "v1.0.0",
+        "description": "将其注入任何包含广告的应用程序以加速其广告",
+        "app_url": "",
+        "icon_url": "",
+        "dylib": "https://trollfools.slpmods.net/downloads/6879d35924557_ADSpeedSLP.dylib",
+        "section": "实用工具",
+        "size": "129.36 KB",
+        "author": "SLP",
+        "screenshots": [],
+        "created_at": "2025-07-18 07:53:45",
+        "updated_at": "2025-07-18 07:53:45",
+        "created_by": "SLPMods"
+    },
+    {
+        "name": "BHInstagram",
+        "version": "v1.2.0",
+        "description": "为Instagram添加许多功能",
+        "app_url": "https://apps.apple.com/sa/app/instagram/id389801252?l=ar",
+        "icon_url": "https://trollfools.slpmods.net/icons/687cc224dbd09_B010C700-E701-4D91-A071-1AEE66AE28D2.jpeg",
+        "dylib": "https://trollfools.slpmods.net/downloads/687cc224dbf3b_Bhinstagram1.2_Trollfools.zip",
+        "section": "社交",
+        "size": "320.22 KB",
+        "author": "BandarHL",
+        "screenshots": [],
+        "created_at": "2025-07-20 13:17:08",
+        "updated_at": "2025-07-20 13:17:08",
+        "created_by": "SLPMods"
+    }
+]

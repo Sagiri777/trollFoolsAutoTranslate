@@ -14,7 +14,7 @@ from baiduTranslate import *
 
 IS_USE_API = True  # 是否使用API进行翻译
 IS_TRANSLATE_NAME = False
-IS_TRANSLATE_SECTION = True
+IS_TRANSLATE_SECTION = False # 不能开启，开启无法适配
 
 
 endFix = "trollpackages.json"

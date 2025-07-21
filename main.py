@@ -1,6 +1,8 @@
+from urllib.parse import urlparse
 from translate import Translator
 from langdetect import detect, LangDetectException
 import requests
+import os 
 import json
 
 IS_TRANSLATE_NAME = False
@@ -11,6 +13,8 @@ endFix = "trollpackages.json"
 
 
 translator = Translator(to_lang="zh")
+
+os.path.exists("tmp") or os.makedirs("tmp")
 
 def translatoor(text2trans):
     try:
@@ -49,7 +53,11 @@ for url in source_list:
             print(f"翻译处理: {package.get('name', '未知包名')}")
         
         
-        with open(f"tmp/{url}zh-cn_{endFix}", "w+", encoding="utf-8") as f:
+        host = urlparse(url).netloc  # 提取主机名
+        output_path = f"translated/zh-cn/{host}/{endFix}"  # 构建新路径
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)  # 确保目录存在
+
+        with open(output_path, "w+", encoding="utf-8") as f:
             json.dump(json_data, f, ensure_ascii=False, indent=4)
         print(f"翻译完成: {url}")
     else:

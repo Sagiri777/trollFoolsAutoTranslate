@@ -5,6 +5,8 @@ import requests
 import os 
 import json
 
+#TODO: 支持使用API进行翻译，支持同时翻译为多种语言并保存至多个文件夹
+
 IS_TRANSLATE_NAME = False
 IS_TRANSLATE_SECTION = True
 

@@ -3,6 +3,7 @@ name: Auto Translate and Commit
 on:
   schedule:
     - cron: '0 12 1,15 * *'  # 每天午夜运行
+  workflow_dispatch:
 
 jobs:
   run-script:

@@ -99,8 +99,13 @@ for url in source_list:
                 package["section"] = translatoor(package["section"])
             print(f"翻译处理: {package.get('name', '未知包名')}")
 
+        output_json = {
+            "repository_name": "SLPMods官方源",
+            "repository_icon": "https://th.bing.com/th/id/R.bf64aeec725be6c89ff1773b28276f3d?rik=8wHIyGpeFybkbQ&pid=ImgRaw&r=0",
+            "packages": json_data
+            }
         with open(output_path, "w+", encoding="utf-8") as f:
-            json.dump(json_data, f, ensure_ascii=False, indent=4)
+            json.dump(output_json, f, ensure_ascii=False, indent=4)
         print(f"翻译完成: {url}")
     else:
         print(f"无数据处理: {url}")

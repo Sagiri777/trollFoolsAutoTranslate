@@ -39,7 +39,7 @@ def generate_package_json():
             package = {
                 "name": package_name,
                 "version": "v1.0.0",
-                "description": package_name,
+                "description": f'插件名：{package_name}\r\n所有内容均来自“艾锋降级"公众号',
                 "app_url": "",  # 可选字段
                 "icon_url": "",#f"https://c-ssl.duitang.com/uploads/blog/202103/09/20210309094204_5f164.thumb.1000_0.jpg",
                 "dylib": f"{base_url}/Plugins/{filename}",

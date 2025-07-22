@@ -41,7 +41,7 @@ def generate_package_json():
                 "version": "v1.0.0",
                 "description": "",
                 "app_url": "",  # 可选字段
-                "icon_url": f"https://c-ssl.duitang.com/uploads/blog/202103/09/20210309094204_5f164.thumb.1000_0.jpg",
+                "icon_url": "",#f"https://c-ssl.duitang.com/uploads/blog/202103/09/20210309094204_5f164.thumb.1000_0.jpg",
                 "dylib": f"{base_url}/Plugins/{filename}",
                 "section": default_section,
                 "size": size_str,

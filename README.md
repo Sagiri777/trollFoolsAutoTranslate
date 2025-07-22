@@ -9,3 +9,6 @@ Auto Translate the package desc and etc for TrollFools SLP Mod Version
 或
 
   ```https://raw.githubusercontent.com/Sagiri777/trollFoolsAutoTranslate/refs/heads/main/translated/zh-cn/trollfools.slpmods.net/```
+
+## 艾锋降级插件源
+  ```https://trollfoolsautotranslate.pages.dev/translated/zh-cn/iPhoneDowngrade/```
